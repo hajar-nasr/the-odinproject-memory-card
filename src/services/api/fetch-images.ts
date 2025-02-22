@@ -1,10 +1,11 @@
+import { BOARD_IMAGES_NUMBER } from "../../utils/constants";
 const POKE_API = "https://pokeapi.co/api/v2/pokemon";
 
 type Input = {
   limit?: number;
 };
 
-const fetchImages = async ({ limit = 12 }: Input = {}) => {
+const fetchImages = async ({ limit = BOARD_IMAGES_NUMBER }: Input = {}) => {
   const response = await fetch(`${POKE_API}?limit=${limit}`);
   const data = await response.json();
 

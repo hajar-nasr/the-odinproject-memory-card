@@ -3,3 +3,5 @@ export const RULES = [
   "The cards shuffle after each click.",
   "You'll lose if you click the same card twice.",
 ];
+
+export const BOARD_IMAGES_NUMBER = 12;
