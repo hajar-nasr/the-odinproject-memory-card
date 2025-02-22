@@ -19,6 +19,8 @@ body {
     justify-content: center;
     align-items: center;
     min-width: 280px;
+    @apply bg-gradient-to-br from-purple-100 to-pink-100;
+
 }
 
 h1 {

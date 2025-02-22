@@ -8,7 +8,7 @@ function App() {
   const handleRulesClick = () => setRulesOpen(true);
 
   return (
-    <div className="relative flex-centerr min-h-screen">
+    <div className="relative flex-center min-h-screen">
       <Header onClick={handleRulesClick} />
 
       <Board />
